@@ -35,7 +35,7 @@
   
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2421060_8z08qcz5sq3.css">
   
-  <link rel="stylesheet" href="/css/style.css?v=1693250901406">
+  <link rel="stylesheet" href="/css/style.css?v=1695009264198">
 <meta name="generator" content="Hexo 6.3.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -222,19 +222,19 @@
 
     <div class="nexmoe-post-footer">
         <section class="nexmoe-comment">
-    <link rel="stylesheet" href="https://unpkg.com/gitalk@1.5.0/dist/gitalk.min.css">
-<div id="gitalk"></div>
-<script src="https://unpkg.com/gitalk@1.5.0/dist/gitalk.min.js"></script>
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-        clientID: '213739faa339bbf8ef87',
-        clientSecret: '40562765127d6d0df5d31067119144fd4a5ffeda',
-        id: window.location.pathname,
-        repo: 'blogcomment',
-        owner: 'tmdakm',
-        admin: 'tmdakm'
-    })
-    gitalk.render('gitalk')
+    <div id="gitment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'tmdakm', // 你的 GitHub ID
+    repo: 'blogcomment', // 存储评论的 repo
+    oauth: {
+        client_id: '213739faa339bbf8ef87', // 你的 client ID
+        client_secret: '40562765127d6d0df5d31067119144fd4a5ffeda' // 你的 client secret
+    },
+})
+gitment.render('gitment')
 </script>
 </section>
     </div>
@@ -953,7 +953,7 @@
 <script src="/lib/fancybox/js/jquery.fancybox.min.js"></script>
 
 
-<script src="/js/app.js?v=1693250901407"></script>
+<script src="/js/app.js?v=1695009264199"></script>
 
 <script src="https://lib.baomitu.com/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
 <script>
